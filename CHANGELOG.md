@@ -1,6 +1,23 @@
 # Changelog
 
 ## [Unreleased]
+## [0.2.167](https://github.com/rust-lang/libc/compare/0.2.166...0.2.167) - 2024-11-27
+
+### Added
+
+- Add a `.git-blame-ingore-revs` entry for edition 2021 changes
+
+### Fixed
+
+- Fix `unused_qualifications`
+
+### Other
+
+- Automatic migration to Rust edition 2021
+
+### Removed
+
+- Remove one unused import after the edition 2021 bump
 ## [0.2.166](https://github.com/rust-lang/libc/compare/0.2.165...0.2.166) - 2024-11-26
 
 ### Fixed
